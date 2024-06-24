@@ -1,0 +1,50 @@
+*{
+    background-color: bisque;
+
+}
+table{
+    border:5px solid black;
+    border-color: #000;
+    width: 1200px;
+    height: 600px;
+    border-radius: 20px;
+    border-collapse: collapse;
+}
+th,td{ 
+
+    border: 3px solid black;
+    font-weight: bolder;
+    text-align: center;
+}
+caption{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-size: larger;
+    font: weight 900px;;
+}
+th{ width: 150px;
+    height: 50px;
+    background: #2f97b4;
+}
+
+td{
+    height: 50px;
+    margin: 0;
+    background: #18af3b;
+}
+
+#nonveg{
+    background-color: rgb(181, 24, 39);
+}
+.nK{
+    background: #f8f6f6;
+}
+div{
+    border:10px solid black
+}
+
+th:hover{ width: 150px;
+    height: 50px;
+    background:#752323 ;
+    color: rgb(179, 168, 168);
+    border-radius: 50%;
+}
